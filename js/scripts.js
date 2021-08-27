@@ -11,6 +11,14 @@ console.log(nomi);
 var cognomi = (Math.floor(Math.random) * 3);
 console.log(cognomi);
 
+for (var i= 0; i < nomi.lenght; i++){
+    if (nomi.lenght == 2) {
+        console.log(nomi);
+    } else() {
+        
+    }
+}
+
 
 
 
