@@ -1,9 +1,9 @@
 // esercizio 2
 var inserisciNumero = prompt("inserisci un munero");
     
-for (var i= 0; i<100; i++) {
+for (var i = 0; i < inserisciNumero; i++) {
     if (i % 2 == 0);
-    console.log(i);
+    console.log(inserisciNumero);
 }
 
 
