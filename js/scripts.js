@@ -4,6 +4,8 @@ nomi= ["Ilario", "Mario", "Dario"];
 
 cognomi= ["Giallo", "Verde", "Rosso"];
 
+var nomi = (Math.floor(Math.random) * 3);
+
 
 
 
