@@ -2,13 +2,15 @@
 // lista nomi 
 nomi= ["Ilario", "Mario", "Dario"];
 alert(nomi);
-
+// lista cognomi
 cognomi= ["Giallo", "Verde", "Rosso"];
 alert (cognomi);
+
 var nomi = (Math.floor(Math.random) * 3);
 console.log(nomi);
 var cognomi = (Math.floor(Math.random) * 3);
 console.log(cognomi);
+
 
 
 
