@@ -1,10 +1,14 @@
 // esercizio 3
 // lista nomi 
 nomi= ["Ilario", "Mario", "Dario"];
+alert(nomi);
 
 cognomi= ["Giallo", "Verde", "Rosso"];
-
+alert (cognomi);
 var nomi = (Math.floor(Math.random) * 3);
+console.log(nomi);
+var cognomi = (Math.floor(Math.random) * 3);
+console.log(cognomi);
 
 
 
