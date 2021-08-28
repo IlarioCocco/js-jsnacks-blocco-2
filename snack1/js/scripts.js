@@ -1,3 +1,5 @@
+// esercizio 1
+
 // il software deve chiedere per  5 volte di inserire un numero
 
 var richiestaNumero= prompt("inserisci per 5 volte un numero");
