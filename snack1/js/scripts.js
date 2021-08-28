@@ -1,4 +1,13 @@
-// esercizio 3
+// snack 4
+// Crea un array di numeri interi
+// e fai la somma di tutti gli elementi che sono in posizione(indice dell'array) dispari
+
+
+
+    
+    
+    
+    // esercizio 3
 // lista nomi 
 nomi= ["Ilario", "Mario", "Dario"];
 alert(nomi);
@@ -6,14 +15,14 @@ alert(nomi);
 cognomi= ["Giallo", "Verde", "Rosso"];
 alert (cognomi);
 
-var nomi = (Math.floor(Math.random) * 3);
+var nomiCasuali = (Math.floor(Math.random) * 3);
 console.log(nomi);
-var cognomi = (Math.floor(Math.random) * 3);
+var cognomiCasuali = (Math.floor(Math.random) * 3);
 console.log(cognomi);
 
 for (var i= 0; i < 3; i++){
-    if (nomi.lenght) 
-        console.log(nomi,cognomi);
+    if (nomi.lenght == nomiCasuali) 
+        console.log(nomi);
 } 
 
 
@@ -37,15 +46,6 @@ for (var i= 0; i < 3; i++){
 
 
 
-// // esercizio 2
-// var inserisciNumero = parseInt(prompt("inserisci un munero"));
-    
-// for (var i = 0; i < inserisciNumero; i++) {
-//     if (i % 2 == 0) {
-//     console.log(i);
-// }   else
-//     console.log(i);
-// }
 
 
      
