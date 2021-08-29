@@ -4,18 +4,21 @@
 // lista di cognomi, Gatsby vuole generare una falsa lista di 3 invitati.
 
 // lista nomi 
-nomi = ["Ilario", "Mario", "Dario"];
+var nomi = ["Ilario", "Mario", "Dario"];
 alert(nomi);
 // lista cognomi
-cognomi = ["Giallo", "Verde", "Rosso"];
+var cognomi = ["Giallo", "Verde", "Rosso"];
 alert(cognomi);
+// falsa lista
+var falsaLista= [];
+alert(falsaLista);
 
-var nomiCasuali = (Math.floor(Math.random) * 3);
-console.log(nomi);
-var cognomiCasuali = (Math.floor(Math.random) * 3);
-console.log(cognomi);
 
 for (var i = 0; i < 3; i++) {
+    var nomiCasuali = Math.floor(Math.random() * nomi.length);
+    console.log(nomi);
+    var cognomiCasuali = Math.floor(Math.random() * 3);
+    console.log(cognomi);
     if (nomi.lenght == nomiCasuali)
         console.log(nomi);
 }
