@@ -3,7 +3,7 @@ var somma= 0;
 // Il software deve chiedere per 5 volte all’utente di inserire un numero.
 for (var i= 0; i < 5; i++){
     var numero= parseInt(prompt("inserisci il numero per 5 volte"));
-    var somma= somma + numero;
+    somma += numero;
     console.log(numero);
 }
 console.log(somma);
